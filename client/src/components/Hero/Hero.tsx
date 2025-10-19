@@ -1,3 +1,4 @@
+import { Button } from "react-bootstrap";
 import "./Hero.scss";
 
 export const Hero = () => {
@@ -12,6 +13,9 @@ export const Hero = () => {
           skills.
         </p>
         Hi, I'm Prince — a Software Engineer Who Loves Building Web Apps.
+        <Button variant="primary" href="#projects">
+          View My Work
+        </Button>
       </div>
       <img src="/developer_male.jpg" alt="Hero Image" className="hero-image" />
     </div>
