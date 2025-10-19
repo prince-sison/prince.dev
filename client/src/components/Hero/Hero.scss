@@ -1,0 +1,10 @@
+.hero-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: var(--bg);
+    color: var(--text);
+}

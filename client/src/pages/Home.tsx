@@ -1,9 +1,13 @@
-import { Navbar } from "../components/shared/Navbar/Navbar";
+import { Footer } from "../components/Footer/Footer";
+import { Hero } from "../components/Hero/Hero";
+import { Navbar } from "../components/Navbar/Navbar";
 
 export const Home = () => {
   return (
     <div className="container">
       <Navbar />
+      <Hero />
+      <Footer />
     </div>
   );
 };
