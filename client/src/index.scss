@@ -1,0 +1,41 @@
+// CSS Variables
+:root {
+  --bg-dark: hsl(211 100% 92%);
+  --bg: hsl(211 100% 97%);
+  --bg-light: hsl(211 100% 100%);
+  --text: hsl(250 100% 12%);
+  --text-muted: hsl(208 100% 23%);
+  --highlight: hsl(210 100% 100%);
+  --border: hsl(203 100% 40%);
+  --border-muted: hsl(208 100% 61%);
+  --primary: hsl(208 100% 23%);
+  --secondary: hsl(30 100% 15%);
+  --danger: hsl(5 77% 40%);
+  --warning: hsl(51 100% 12%);
+  --success: hsl(160 100% 11%);
+  --info: hsl(217 78% 44%);
+}
+
+// Base styles
+body,
+#main {
+  background-color: var(--bg-dark);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.App {
+  min-height: 100vh;
+
+  // Global box-sizing for all elements
+  *,
+  *::before,
+  *::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  a {
+    text-decoration: none !important;
+  }
+}
