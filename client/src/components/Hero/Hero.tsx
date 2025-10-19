@@ -8,10 +8,6 @@ export const Hero = () => {
         <h2>Hi,</h2>
         <h1>I'm Prince</h1>
         <h3>Full Stack Developer</h3>
-        <p>
-          Welcome to my portfolio website. Here you can find my projects and
-          skills.
-        </p>
         Hi, I'm Prince — a Software Engineer Who Loves Building Web Apps.
         <Button variant="primary" href="#projects">
           View My Work
