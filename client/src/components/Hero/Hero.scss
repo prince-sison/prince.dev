@@ -8,3 +8,11 @@
     background-color: var(--bg);
     color: var(--text);
 }
+
+.hero-image {
+    flex: 1;
+    max-width: 50%;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+}
