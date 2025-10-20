@@ -5,10 +5,14 @@ export const Hero = () => {
   return (
     <div className="hero-container">
       <div className="hero-summary">
-        <h2>Hi,</h2>
-        <h1>I'm Prince</h1>
-        <h3>Full Stack Developer</h3>
-        Hi, I'm Prince — a Software Engineer Who Loves Building Web Apps.
+        <h1 className="text-4xl md:text-6xl font-bold mb-4">
+          Building Scalable, Cloud-Driven Web Applications
+        </h1>
+        <p className="max-w-2xl text-lg text-gray-600 mb-6">
+          I’m <span className="font-semibold">Prince Sison</span>, a Full Stack
+          Software Engineer specializing in C#, .NET Core, React, and Azure —
+          crafting reliable and modern web solutions.
+        </p>
         <Button variant="primary" href="#projects">
           View My Work
         </Button>
