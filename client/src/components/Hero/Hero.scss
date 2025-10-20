@@ -5,14 +5,25 @@
     justify-content: center;
     padding: 2rem;
     border-radius: 1rem;
-    background-color: var(--bg);
     color: var(--text);
+}
+
+.hero-summary {
+    flex: 1;
+    max-width: 50%;
 }
 
 .hero-image {
     flex: 1;
     max-width: 50%;
     border-radius: 1rem;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    object-fit: cover;
+    object-fit: scale-down;
+    // Remove background to make image transparent
+    background: none;
+    background-color: transparent;
+    // Remove box shadow to prevent background artifacts
+    // box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    // Ensure the image supports transparency
+    mix-blend-mode: normal;
 }

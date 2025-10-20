@@ -17,7 +17,7 @@ export const Hero = () => {
           View My Work
         </Button>
       </div>
-      <img src="/developer_male.jpg" alt="Hero Image" className="hero-image" />
+      <img src="/developer_male.png" alt="Hero Image" className="hero-image" />
     </div>
   );
 };
