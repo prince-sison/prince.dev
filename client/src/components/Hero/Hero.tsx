@@ -13,9 +13,14 @@ export const Hero = () => {
           Software Engineer specializing in C#, .NET Core, React, and Azure —
           crafting reliable and modern web solutions.
         </p>
-        <Button variant="primary" href="#projects">
-          View My Work
-        </Button>
+        <div className="call-to-action">
+          <Button variant="primary" href="#projects">
+            View My Work
+          </Button>
+          <Button variant="outline-secondary" href="#contact" className="ml-3">
+            Get In Touch
+          </Button>
+        </div>
       </div>
       <img src="/developer_male.png" alt="Hero Image" className="hero-image" />
     </div>
