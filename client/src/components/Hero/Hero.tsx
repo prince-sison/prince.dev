@@ -14,10 +14,10 @@ export const Hero = () => {
           crafting reliable and modern web solutions.
         </p>
         <div className="call-to-action">
-          <Button variant="primary" href="#projects">
+          <Button className="btn" href="#projects">
             View My Work
           </Button>
-          <Button variant="outline-secondary" href="#contact" className="ml-3">
+          <Button className="btn" href="#contact">
             Get In Touch
           </Button>
         </div>

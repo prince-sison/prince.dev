@@ -15,9 +15,12 @@
 
 .hero-image {
   flex: 1;
-  max-width: 50%;
+  max-width: 65%;
+  width: 100%;
+  height: auto;
+  max-height: 700px;
   border-radius: 1rem;
-  object-fit: scale-down;
+  object-fit: contain;
   // Remove background to make image transparent
   background: none;
   background-color: transparent;
