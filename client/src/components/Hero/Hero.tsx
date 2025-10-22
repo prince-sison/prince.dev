@@ -5,19 +5,24 @@ export const Hero = () => {
   return (
     <div className="hero-container">
       <div className="hero-summary">
-        <h2>Hi,</h2>
-        <h1>I'm Prince</h1>
-        <h3>Full Stack Developer</h3>
-        <p>
-          Welcome to my portfolio website. Here you can find my projects and
-          skills.
+        <h1 className="text-4xl md:text-6xl font-bold mb-4">
+          Building Scalable, Cloud-Driven Web Applications
+        </h1>
+        <p className="max-w-2xl text-lg text-gray-600 mb-6">
+          I’m <span className="font-semibold">Prince Sison</span>, a Full Stack
+          Software Engineer specializing in C#, .NET Core, React, and Azure —
+          crafting reliable and modern web solutions.
         </p>
-        Hi, I'm Prince — a Software Engineer Who Loves Building Web Apps.
-        <Button variant="primary" href="#projects">
-          View My Work
-        </Button>
+        <div className="call-to-action">
+          <Button className="btn" href="#projects">
+            View My Work
+          </Button>
+          <Button className="btn" href="#contact">
+            Get In Touch
+          </Button>
+        </div>
       </div>
-      <img src="/developer_male.jpg" alt="Hero Image" className="hero-image" />
+      <img src="/developer_male.png" alt="Hero Image" className="hero-image" />
     </div>
   );
 };

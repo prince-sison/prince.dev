@@ -1,18 +1,38 @@
 .hero-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 2rem;
-    border-radius: 1rem;
-    background-color: var(--bg);
-    color: var(--text);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  border-radius: 1rem;
+  color: var(--text);
+}
+
+.hero-summary {
+  flex: 1;
+  max-width: 50%;
 }
 
 .hero-image {
-    flex: 1;
-    max-width: 50%;
-    border-radius: 1rem;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    object-fit: cover;
+  flex: 1;
+  max-width: 65%;
+  width: 100%;
+  height: auto;
+  max-height: 700px;
+  border-radius: 1rem;
+  object-fit: contain;
+  // Remove background to make image transparent
+  background: none;
+  background-color: transparent;
+  // Remove box shadow to prevent background artifacts
+  // box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  // Ensure the image supports transparency
+  mix-blend-mode: normal;
+}
+
+.call-to-action {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1rem;
 }
